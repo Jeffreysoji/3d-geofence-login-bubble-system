@@ -1,0 +1,23 @@
+# ─── Sensitive config ───────────────────────────────────────────────────────
+db.php
+.env
+*.env
+config.php
+
+# ─── Logs & temp files ──────────────────────────────────────────────────────
+email_log.txt
+*.log
+*.tmp
+
+# ─── OS / Editor junk ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ─── XAMPP / PHP local ──────────────────────────────────────────────────────
+db_test.php
+
+# ─── Reports / documents ────────────────────────────────────────────────────
+user/report/

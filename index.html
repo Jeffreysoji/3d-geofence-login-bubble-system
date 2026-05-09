@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KKBank — Secure Online Banking</title>
+  <meta name="description" content="KKBank — Secure, fast and smart digital banking. Register or login to access accounts." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="brand-text">KK<span>Bank</span></span>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#security">Security</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <div class="nav-actions">
+          <!-- Admin removed; replaced by Register -->
+          <a class="btn btn-outline" href="user/login.php">Login</a>
+          <a class="btn btn-primary" href="user/register.php">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Banking made simple, secure, and smart.</h1>
+          <p class="lead">
+            KKBank protects your money with state-of-the-art security, location-based controls,
+            and an easy-to-use dashboard. Open an account or sign in to manage your finances.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary large" href="user/register.php">Open an Account</a>
+            <a class="btn btn-ghost large" href="user/login.php">I already have an account</a>
+          </div>
+
+          <ul class="trust-list" aria-hidden="false">
+            <li>Instant transfers • Minimal fees</li>
+            <li>2-Factor Authentication & GeoFence security</li>
+            <li>24/7 support & real-time alerts</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- 3D sphere visual / placeholder -->
+          <div class="sphere-wrap">
+            <div class="sphere"></div>
+            <div class="sphere-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES, SECURITY, CTA, CONTACT same as before -->
+    <!-- ... (you can re-use your existing sections) ... -->
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> KKBank</div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Help</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
