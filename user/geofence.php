@@ -164,9 +164,10 @@ $userEmail = $_SESSION['user_email'] ?? '(you)';
     const userId = <?= json_encode($userId) ?>;
   </script>
 
-  <!-- Replace the API key below with your Google Maps API key -->
+  <!-- Replace YOUR_GOOGLE_MAPS_API_KEY below with your actual Google Maps API key -->
+  <!-- Get one at: https://console.cloud.google.com/ -->
   <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLmBE8UrshXZUzkLPpqHb5TQL4li_ve_0&libraries=drawing,geometry&callback=initMap"
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=drawing,geometry&callback=initMap"
     async defer></script>
 
   <script>
